@@ -49,11 +49,18 @@
     .profil > h1,h2{
         font-weight: lighter;
     }
-
-    .profil > img {
-        width: 25%;
+    .profil > a{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 15%;
+    }
+    .profil > a img {
+        width: 100%;
         border-radius: 100%;
         box-shadow: 10px 1px #783531;
+    }
+    .profil > a img:hover{
+        transform: scale(1.5);
     }
 
     .contact    {
@@ -119,7 +126,9 @@
         margin-left: 5%;
         border-left: solid 1rem #782221;
     }
-    
+    .right__border:hover{
+        border-right: solid 1rem #782221;
+    }
     .main h4{
         padding-left: 5%;
     }
@@ -163,4 +172,7 @@
         padding-bottom: 1%;
         margin-left: 50%;
         color: white;
+    }
+    footer img:hover{
+        opacity: 0.30;
     }
